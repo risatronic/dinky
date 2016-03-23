@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="WebPartTraining.ColouredDaysToChristmasPart.ColouredDaysToChristmasPart, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Coloured Days to Occasion</property>
+        <property name="Description" type="string">This web part shows a coloured display of days left to Christmas</property>
+        <property name="LeftImage" type="string">/_layouts/15/Images/WebPartTraining/tree.png</property>
+        <property name="RightImage" type="string">/_layouts/15/Images/WebPartTraining/world.jpg</property>
+        <property name="Occasion" type="string">Christmas</property>
+        <property name="Month" type="int">12</property>
+        <property name="Day" type="int">25</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
